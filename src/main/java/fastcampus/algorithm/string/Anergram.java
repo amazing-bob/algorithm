@@ -13,6 +13,7 @@ public class Anergram {
         String compare = scanner.next();
 
         System.out.println(new Anergram().getCountOfRemoveChar(target, compare));
+        System.exit(0);
     }
 
     private static Map<Character, Integer> getCharacterIntegerMap(String target) {
